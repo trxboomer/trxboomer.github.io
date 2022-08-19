@@ -47,3 +47,11 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+.logo{
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    float: left;
+    height: 60px;
+    width: 60px; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+}
